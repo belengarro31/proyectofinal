@@ -99,7 +99,11 @@ div h1{
     font-family: "Montserrat";
     color: rgb(0, 105, 167);
     margin-bottom: 3rem;
-    
+    transition: 2.5s;
+}
+
+.hero2 h2:hover{
+    transform: scale(3);
 }
 
 
@@ -488,45 +492,10 @@ img{
     .hero h1{
         font-size: 25px;
     }
-}
 
-/*@media screen and (max-width:768px){
-    
-    
-    .menu{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .menu li a{
-        text-align: center;
-        flex-wrap: nowrap;
+    .navegacion{
+        width: 100%;
     }
 
-    .iframe{
-        margin-left: 5rem;
-    }
-
-    .hero2{        
-        margin-right: 2rem;
-        margin-top: 14rem;   
-        margin-bottom: 3rem;
-        text-align: justify;
-}
 }
 
-@media screen and (max-width:956px){
-
-    .hero2 h2{
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-        margin-top: 3rem;
-    }
-
-    .hero2{        
-        margin-right: 2rem;
-        margin-top: 14rem;   
-        margin-bottom: 3rem;
-        text-align: justify;
-}
-}*/
