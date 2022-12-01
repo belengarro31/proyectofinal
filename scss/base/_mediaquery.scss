@@ -4,7 +4,7 @@
     }
 
     .iframe{
-        margin-left: 5rem;
+        margin-left: 4rem;
     }
 }
 
@@ -70,6 +70,9 @@
         width: 100%;
         margin-top: 4px;
         margin-bottom: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
     }
 
     .menu{
@@ -80,8 +83,9 @@
         margin-top: 0;
     }
 
-    .menu li a{
-        padding: 4px;
+    .menu li{
+        padding: 0;
+        margin: 0;
     }
 
     .hero h1{
@@ -103,6 +107,16 @@
   
 }
 
+@media screen and (max-width:366px) {
+    .menu li a{
+        padding: 0;
+        margin:0;
+    }
+    
+    .navegacion{
+        padding: 0;
+    }
+}
 
 @media screen and (max-width:361px){
     .hero h1{
@@ -117,7 +131,6 @@
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column-reverse;
-    }
-    
+    } 
 }
 
