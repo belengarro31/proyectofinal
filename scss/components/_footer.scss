@@ -1,0 +1,42 @@
+.footer-flex{
+    background-color: rgb(131, 151, 136);
+    border-top: 2px solid rgb(0, 105, 167);
+    height: 150px;
+    position: relative;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    .link-redes{
+        display: flex;
+        justify-content: center;
+        flex: auto;
+
+        A{
+            text-decoration: none;
+            margin:auto;
+        }
+
+        img{
+            width: 2rem;
+            justify-items: center;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            margin-top: 2rem;
+        }        
+    }
+    .texto{
+        p{
+            text-align: center;
+            font-family: "Montserrat";
+            color: rgb(0, 105, 167);
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }    
+    }
+}
