@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(131, 151, 136);
+    background-color: nth($colores, 3);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -10,44 +10,38 @@ header{
     img{
         width: 15rem;
         text-align: left;
-        margin-top: 2rem;
+        margin-top:$margen-top;
         padding: 0;
         padding-left:2rem;  
-        }
+    }
 
     .navegacion{
-        margin: 30px auto; 
+        width: 1000px;
+        margin: 30px auto;
         display: flex;
         justify-content: flex-end;
 
-         
-        .menu{
-            
+    .menu{
             li{
                 display: inline-block;
-
-                a{
-                 color: rgb(0, 105, 167);
-                 display: block;
-                 padding: 15px 20px;
-                 text-decoration: none;
-                 font-family: "Montserrat";
-                 text-align: right;
-                 list-style-type: none;
-                 font-weight: bold; 
-                 transition: color .4s ease-in;
-                align-items: right;
-                 
-                &:hover{
-                    color:rgb(255, 127, 48) ;
-                    transition: 1.5s;
-                  }
-                }
+            }
+    
+            a{
+            color: nth($colores, 1);
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-family: "Montserrat";
+            text-align: right;
+            list-style-type: none;
+            font-weight: bold; 
+            transition: color .4s ease-in;
+            align-items: right;
+            
             }
         }
-    }
-    }
 
-
+    }
+}
 
 

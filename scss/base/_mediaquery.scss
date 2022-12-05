@@ -1,6 +1,9 @@
 @media screen and (max-width: 953px){
-    .hero2 h2{
-        margin-top: 10rem;
+    .hero2{
+        h2{
+            margin-top: 10rem;
+        }
+       
     }
 
     .iframe{
@@ -14,19 +17,21 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-        
-    }
-.navegacion{
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
 
+        .navegacion{
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+    }
 }
-}
+}    
+
 
 @media screen and (max-width:849px){
-    .hero2 h2{
-    margin-top: 12rem;
+    .hero2{
+        h2{
+            margin-top: 12rem;
+        } 
     }
 }
 
@@ -35,10 +40,11 @@
         grid-template-columns: (2, 1fr);
         grid-auto-rows: 250px;
         grid-auto-columns: 175px;
-    }
+       
 
-    .grid-contenedor-galeria img{
-        object-fit: cover;
+        img{
+            object-fit: cover; 
+        }
     }
 
     .grid-items{
@@ -48,79 +54,125 @@
 }
 
 @media screen and (max-width:696px){
-    .navegacion{
-        margin-top: 4px;
-        margin-bottom: 0;
-    }
-    .menu{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
+
+    header{
+        .navegacion{
+            margin-top: 4px;
+            margin-bottom: 0;
+
+            .menu{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                li{
+                    a{
+                        padding: 4px;
+                    }
+                }
+            }
+        }     
     }
     
-    .menu li a{
-        padding: 4px;
-    }
 }
 
+
 @media screen and (max-width:581px){
-    
-    .navegacion{
+    header{
         width: 100%;
-        margin-top: 4px;
-        margin-bottom: 0;
-        padding: 0;
-        align-items: center;
-        justify-content: center;
-    }
 
-    .menu{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        margin-top: 0;
-    }
+        .navegacion{
+            width: 100%;
+            margin-top: 4px;
+            margin-bottom: 0;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+        
 
-    .menu li{
-        padding: 0;
-        margin: 0;
-    }
-
-    .hero h1{
-        font-size: 30px;
+        .menu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            margin-top: 0;
+    
+            li{
+                padding: 0;
+                margin: 0;
+            }
+        }
+      }
+}
+    
+    .hero{
+        h1{
+            font-size: 30px;
+        }
     }
 
     
-    .hero2 h2{
-        margin-top: 15rem;
+    .hero2{
+        h2{
+            margin-top: 15rem;
+        }
     }    
 }
 
-@media screen and (max-width:380px){
+@media screen and (max-width:380px) {
   .grid-contenedor-galeria{
     grid-auto-rows: 200px;
     grid-auto-columns: 150px;
     justify-items: center;
+    align-items: center;
+    gap: 20px;
+
+    .grid-items{
+        img{
+            gap: 20px;
+        }
+    }
   }
   
 }
 
 @media screen and (max-width:366px) {
-    .menu li a{
-        padding: 0;
-        margin:0;
-    }
     
     .navegacion{
         padding: 0;
+
+        .menu{
+            li{
+                a{
+                    padding: 0;
+                    margin:0;
+                }
+            }
+        }
+    }  
+    
+    .hero{
+        div{
+        h1{
+            font-size: 22px;
+        }
+    }
+}
+    .iframe-maps{
+        margin-left: 1.5rem;
+
+        iframe{
+            width: 100%;
+            height: 100% ;
+        }
     }
 }
 
 @media screen and (max-width:361px){
-    .hero h1{
-        font-size: 25px;
+    .hero{
+        h1{
+            font-size: 20px;
+        }
     }
 
     .navegacion{
@@ -128,9 +180,17 @@
     }
 
     .iframe-maps{
+        margin-left: 1.5rem;
+
+        iframe{
+            width: 100%;
+            height: 100% ;
+        }
+    }
+    /*.iframe-maps{
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column-reverse;
-    } 
+    } */
 }
 
