@@ -7,7 +7,7 @@
 .div1-contenedor {
     font-family: "Montserrat";
     color:  nth($colores, 1); 
-    margin-left: 3rem;
+    margin-left: nth($margenes, 5);
 
     h2{
         @extend %titulo;
@@ -16,8 +16,8 @@
 
     ul{
         margin-top: $margen-top;
-        margin-bottom: 2rem;
-        margin-left: 3rem;
+        margin-bottom: nth($margenes, 3);
+        margin-left: nth($margenes, 5);
     }
 
     p{
@@ -27,7 +27,7 @@
     h3{
         font-weight: bold;
         font-size:nth($font-size ,1);
-        margin-left: 3rem;
+        margin-left: nth($margenes, 5);
     }
 
 }

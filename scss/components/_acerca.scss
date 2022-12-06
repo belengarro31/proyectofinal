@@ -9,10 +9,7 @@
        p{
         font-family: "Montserrat";
         color: nth($colores, 1);
-        margin-left: 3rem ;
-        text-align: justify;
-        justify-content: space-around;
-        line-height: 150%;
+        @extend %parrafo;
         padding: 2rem;
    }
 }

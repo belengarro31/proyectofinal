@@ -26,10 +26,10 @@
 .hero2{
     h2{
         text-align: center;
-        margin-top: 2.5rem;
+        margin-top: nth($margenes, 4);
         font-family: "Montserrat";
         color: nth($colores, 1);
-        margin-bottom: 3rem;
+        margin-bottom: nth($margenes, 5);
         transition: 2.5s;
         &:hover{
             transform: scale(3);
@@ -39,7 +39,7 @@
     h3{
         font-family: "Montserrat";
         color: nth($colores, 1);
-        margin-left: 5rem;     
+        margin-left: nth($margenes, 6);     
     }
 }
 

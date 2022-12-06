@@ -23,6 +23,11 @@ body {
   align-items: center;
   justify-content: center; }
 
+.flex-acerca p, .parrafo-galeria {
+  margin-left: 3rem;
+  text-align: justify;
+  line-height: 150%; }
+
 header {
   background-color: #839788;
   text-align: center;
@@ -93,10 +98,6 @@ header {
 .flex-acerca p {
   font-family: "Montserrat";
   color: #0069a7;
-  margin-left: 3rem;
-  text-align: justify;
-  justify-content: space-around;
-  line-height: 150%;
   padding: 2rem; }
 
 .titulo-galeria {
@@ -105,10 +106,6 @@ header {
 .parrafo-galeria {
   font-family: "Montserrat";
   color: #0069a7;
-  margin-left: 3rem;
-  text-align: justify;
-  justify-content: space-around;
-  line-height: 150%;
   padding: 2rem; }
 
 .grid-contenedor-galeria {

@@ -15,6 +15,15 @@ $colores:
  24px,
  40px;
 
+ $margenes:
+ 0.5rem,
+ 1rem,
+ 2rem,
+ 2.5rem,
+ 3rem,
+ 5rem;
+
+
 //!EXTENDS
 
 %titulo{
@@ -32,7 +41,21 @@ $colores:
     justify-content: center;
 }
 
+%parrafo{
+  margin-left: 3rem; 
+  text-align: justify;
+  line-height: 150%;
+}
+
 
 
 //!MIXIN
+
+@mixin flex ($flex, $justify, $left){
+  
+
+
+}
+    
+
 
