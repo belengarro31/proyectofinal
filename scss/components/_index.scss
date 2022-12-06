@@ -9,10 +9,11 @@
         text-align: center;
         font-family: "Montserrat";
         font-size: nth($font-size,3);
-        color: nth($colores, 1);
+        color: $color-texto;
         padding-top: 3rem ;
         padding-bottom: 3rem;
         text-shadow: 7px 2px 7px rgb(90, 90, 90);
+        font-weight: bold;
         }
 }  
 
@@ -28,7 +29,7 @@
         text-align: center;
         margin-top: nth($margenes, 4);
         font-family: "Montserrat";
-        color: nth($colores, 1);
+        color: $color-texto;
         margin-bottom: nth($margenes, 5);
         transition: 2.5s;
         &:hover{
@@ -38,8 +39,10 @@
 
     h3{
         font-family: "Montserrat";
-        color: nth($colores, 1);
-        margin-left: nth($margenes, 6);     
+        color: $color-texto;
+        margin-left: nth($margenes, 6);    
+        text-align: justify;
+        font-size: 27px;
     }
 }
 

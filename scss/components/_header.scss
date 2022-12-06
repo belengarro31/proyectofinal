@@ -1,5 +1,5 @@
 header{
-    background-color: nth($colores, 3);
+    background-color: $color-fondo;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ header{
     img{
         width: 15rem;
         text-align: left;
-        margin-top:$margen-top;
+        margin-top: nth($margenes, 3);
         padding: 0;
         padding-left:2rem;  
     }
@@ -27,7 +27,7 @@ header{
             }
     
             a{
-            color: nth($colores, 1);
+            color: $color-texto;
             display: block;
             padding: 10px 20px;
             text-decoration: none;

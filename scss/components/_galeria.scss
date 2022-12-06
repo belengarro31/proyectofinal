@@ -1,11 +1,11 @@
 .titulo-galeria{
     @extend %titulo;
-    color: nth($colores, 1);
+    color: $color-texto;
 }
 
 .parrafo-galeria{
     font-family: "Montserrat";
-    color: nth($colores, 1);
+    color: $color-texto;
     @extend %parrafo;
     padding: 2rem;
 }

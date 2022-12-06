@@ -1,27 +1,24 @@
 
 //!VARIABLES
 
-$margen-top: 2rem;
+$color-texto:rgb(0, 105, 167);
+$color-secundario:rgb(255, 127, 48);
+$color-fondo: rgb(131, 151, 136);
 
 //!LISTAS
 
-$colores: 
- rgb(0, 105, 167),
- rgb(255, 127, 48) ,
- rgb(131, 151, 136);
+$font-size:
+20px,
+24px,
+40px;
 
- $font-size:
- 20px,
- 24px,
- 40px;
-
- $margenes:
- 0.5rem,
- 1rem,
- 2rem,
- 2.5rem,
- 3rem,
- 5rem;
+$margenes:
+0.5rem,
+1rem,
+2rem,
+2.5rem,
+3rem,
+5rem;
 
 
 //!EXTENDS
@@ -51,11 +48,12 @@ $colores:
 
 //!MIXIN
 
-@mixin flex ($flex, $justify, $left){
-  
-
-
+@mixin margin-padding ($margin, $padding){
+  margin: $margin;
+  padding: $padding;
 }
+
+
     
 
 

@@ -67,7 +67,7 @@
 
                 li{
                     a{
-                        padding: 4px;
+                        padding: 2px;
                     }
                 }
             }
@@ -124,7 +124,6 @@
     grid-auto-rows: 200px;
     grid-auto-columns: 150px;
     justify-items: center;
-    align-items: center;
     gap: 20px;
 
     .grid-items{
@@ -187,10 +186,6 @@
             height: 100% ;
         }
     }
-    /*.iframe-maps{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column-reverse;
-    } */
+    
 }
 

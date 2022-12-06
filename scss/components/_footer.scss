@@ -1,13 +1,14 @@
 .footer-flex{
-    background-color: nth($colores, 3);
+    background-color: $color-fondo;
     border-top: 2px solid rgb(0, 105, 167);
     height: 150px;
     position: relative;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    margin-top:$margen-top;
     display: flex;
+    margin-top: nth($margenes,3);
+   
     flex-direction: column;
 
     .link-redes{
@@ -25,17 +26,17 @@
             justify-items: center;
             margin-left: nth($margenes, 1);
             margin-right: nth($margenes, 1);
-            margin-top:$margen-top;
+            margin-top:nth($margenes, 3);
         }        
     }
     .texto{
         p{
             text-align: center;
             font-family: "Montserrat";
-            color: nth($colores, 1);
+            color:$color-texto;
             display: flex;
             justify-content: center;
-            margin-top:$margen-top;
+            margin-top:nth($margenes, 3);
             margin-bottom:  nth($margenes, 1);
         }    
     }

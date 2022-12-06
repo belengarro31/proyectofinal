@@ -1,14 +1,14 @@
 .acerca{
       h2{
         @extend %titulo;       
-        color: nth($colores, 1);
+        color: $color-texto;
       }
 }
 
 .flex-acerca{
        p{
         font-family: "Montserrat";
-        color: nth($colores, 1);
+        color: $color-texto;
         @extend %parrafo;
         padding: 2rem;
    }
