@@ -40,7 +40,6 @@
         grid-template-columns: (2, 1fr);
         grid-auto-rows: 250px;
         grid-auto-columns: 175px;
-       
 
         img{
             object-fit: cover; 
@@ -68,6 +67,10 @@
                 li{
                     a{
                         padding: 2px;
+                        &:hover{
+                            color: $color-secundario;
+                            transition:.4s ease-in;
+                            }
                     }
                 }
             }
@@ -145,6 +148,10 @@
                 a{
                     padding: 0;
                     margin:0;
+                    &:hover{
+                        color: $color-secundario;
+                        transition:.4s ease-in;
+                        }
                 }
             }
         }

@@ -35,8 +35,11 @@ header{
             text-align: right;
             list-style-type: none;
             font-weight: bold; 
-            transition: color .4s ease-in;
             align-items: right;
+            &:hover{
+            color: $color-secundario;
+            transition:.4s ease-in;
+            }
             
             }
         }
