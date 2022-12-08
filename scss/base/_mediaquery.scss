@@ -3,7 +3,6 @@
         h2{
             margin-top: 10rem;
         }
-       
     }
 
     .iframe{
@@ -63,14 +62,16 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-
+                padding: 0;
+                
                 li{
+                    padding: 0;
+                    margin: 0;
                     a{
-                        padding: 2px;
                         &:hover{
-                            color: $color-secundario;
-                            transition:.4s ease-in;
-                            }
+                        color: $color-secundario;
+                        transition:.4s ease-in;
+                        }
                     }
                 }
             }

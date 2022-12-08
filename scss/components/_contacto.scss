@@ -1,7 +1,7 @@
 .texto-contacto h2{
     @extend %titulo;
     color: $color-texto;
-    
+    font-size: nth($font-size, 2);
 }
 
 .texto-contacto p{

@@ -1,6 +1,7 @@
 .titulo-galeria{
     @extend %titulo;
     color: $color-texto;
+    font-size: nth($font-size, 2);
 }
 
 .parrafo-galeria{

@@ -2,49 +2,41 @@ header{
     background-color: $color-fondo;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     border-bottom: 2px solid rgb(0, 105, 167);
     position: sticky;
-    top: 0;  
+    top: 0;
+    align-items: center;
+    padding: 20px;
+    
 
     img{
-        width: 15rem;
-        text-align: left;
-        margin-top: nth($margenes, 3);
-        padding: 0;
-        padding-left:2rem;  
+        width: 15rem; 
     }
 
     .navegacion{
-        width: 1000px;
-        margin: 30px auto;
-        display: flex;
-        justify-content: flex-end;
-
+       
     .menu{
-            li{
-                display: inline-block;
-            }
+        display: flex; 
+        list-style: none; 
+        margin-bottom:0; 
+        li{
+            margin: 15px;  
     
             a{
             color: $color-texto;
-            display: block;
-            padding: 10px 20px;
             text-decoration: none;
             font-family: "Montserrat";
-            text-align: right;
-            list-style-type: none;
             font-weight: bold; 
-            align-items: right;
+    
             &:hover{
             color: $color-secundario;
             transition:.4s ease-in;
             }
-            
             }
         }
 
     }
 }
-
+}
 

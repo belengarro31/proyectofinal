@@ -2,6 +2,7 @@
       h2{
         @extend %titulo;       
         color: $color-texto;
+        font-size: nth($font-size, 2);
       }
 }
 
