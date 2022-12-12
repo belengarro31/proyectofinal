@@ -144,7 +144,6 @@
   .grid-contenedor-galeria{
     grid-auto-rows: 200px;
     grid-auto-columns: 150px;
-    justify-items: center;
     gap: 20px;
 
     .grid-items{
@@ -203,6 +202,19 @@
         iframe{
             width: 100%;
             height: 100% ;
+        }
+    }
+
+    .grid-contenedor-galeria{
+        grid-auto-rows: 200px;
+        grid-auto-columns: 100px;
+        gap: 20px;
+    
+        .grid-items{
+            img{
+                gap: 20px;
+            }           
+            
         }
     }
 }
