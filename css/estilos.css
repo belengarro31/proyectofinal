@@ -314,13 +314,14 @@ img {
   .hero h1 {
     font-size: 30px; }
   .hero2 h2 {
-    margin-top: 20rem; }
+    margin-top: 15rem; }
   .hero2 h3 {
     font-size: 20px; } }
 
 @media screen and (max-width: 460px) {
   .hero2 h2 {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    margin-top: 15rem; }
   .hero2 h3 {
     font-size: 15px;
     margin-left: 0.5rem; } }
@@ -334,6 +335,8 @@ img {
       gap: 20px; }
   .hero iframe {
     margin-right: 2rem; }
+  .hero2 h2 {
+    margin-top: 12rem; }
   .hero2 h3 {
     font-size: 15px;
     margin-left: 2rem; } }
@@ -350,7 +353,7 @@ img {
   .hero div h1 {
     font-size: 22px; }
   .hero2 h2 {
-    margin-top: 10rem; }
+    margin-top: 8rem; }
   .iframe-maps {
     margin-left: 1.5rem; }
     .iframe-maps iframe {
